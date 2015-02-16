@@ -24,7 +24,7 @@ class elrepo (
   if ${::osfamily} == 'RedHat' and ${::operatingsystem} != 'Fedora' {
     
     yumrepo { 'elrepo':
-      descr      => "ELRepo.org Community Enterprise Linux Repository - el\$operatingsystemmajrelease",
+      descr      => "ELRepo.org Community Enterprise Linux Repository - el${::operatingsystemmajrelease}",
       baseurl    => $elrepo_baseurl,
       mirrorlist => $elrepo_mirrorlist,
       proxy      => $elrepo_proxy,
