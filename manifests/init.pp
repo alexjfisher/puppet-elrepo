@@ -21,7 +21,7 @@ class elrepo (
 
 ) inherits elrepo::params {
 
-  if ${::osfamily} == 'RedHat' and ${::operatingsystem} != 'Fedora' {
+  if $::osfamily == 'RedHat' and $::operatingsystem != 'Fedora' {
     
     yumrepo { 'elrepo':
       descr      => "ELRepo.org Community Enterprise Linux Repository - el${::operatingsystemmajrelease}",
