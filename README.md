@@ -52,7 +52,7 @@ This module has been tested against the latest version of Puppet from the Puppet
 
 The module has been tested on:
 
-* None currently.
+* CentOS 6.6
 
 This module should also work fine on:
 
