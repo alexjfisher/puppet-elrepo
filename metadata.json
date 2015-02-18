@@ -7,7 +7,7 @@
   "source": "https://github.com/kemra102/puppet-elrepo",
   "project_page": "https://github.com/kemra102/puppet-elrepo",
   "issues_url": "https://github.com/kemra102/puppet-elrepo/issues",
-  "tags": ["repo", "elrepo", "redhat", "centos"],
+  "tags": ["repo", "elrepo", "el", "redhat", "centos"],
   "operatingsystem_support": [
     {
     "operatingsystem":"RedHat",
@@ -27,6 +27,5 @@
     }
   ],
   "dependencies": [
-    { "name": "puppetlabs/stdlib", "version_requirement": ">=3.2.0" },
   ]
 }
