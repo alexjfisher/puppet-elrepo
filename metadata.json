@@ -2,12 +2,12 @@
   "name": "kemra102-elrepo",
   "version": "1.0.0",
   "author": "Danny Roberts",
-  "license": "BSD 2-Clause",
+  "license": "BSD-2-Clause",
   "summary": "Module for managing ELRepo.",
   "source": "https://github.com/kemra102/puppet-elrepo",
   "project_page": "https://github.com/kemra102/puppet-elrepo",
   "issues_url": "https://github.com/kemra102/puppet-elrepo/issues",
-  "tags": ["repo", "elrepo", "el", "redhat", "centos"],
+  "tags": ["repo", "elrepo", "redhat", "centos"],
   "operatingsystem_support": [
     {
     "operatingsystem":"RedHat",
